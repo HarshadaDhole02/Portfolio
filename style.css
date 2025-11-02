@@ -1,0 +1,45 @@
+body {
+  font-family: 'Poppins', sans-serif;
+  scroll-behavior: smooth;
+  background-color: #f8f9fa;
+}
+
+/* Hero Section */
+.hero {
+  background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.7)),
+              url('https://images.unsplash.com/photo-1498050108023-c5249f4df085') center/cover no-repeat;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Navbar hover effect */
+.nav-link:hover {
+  color: #0d6efd !important;
+  transition: 0.3s;
+}
+
+/* Card hover effect */
+.card {
+  transition: transform 0.3s, box-shadow 0.3s;
+}
+.card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.1);
+}
+
+/* Progress bars for skills */
+.progress {
+  height: 25px;
+  background-color: #e9ecef;
+  border-radius: 12px;
+  margin-bottom: 10px;
+}
+
+.progress-bar {
+  font-weight: bold;
+  line-height: 25px;
+}
+
+/
